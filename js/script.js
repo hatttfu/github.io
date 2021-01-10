@@ -4,7 +4,7 @@ $(document).ready(function() {
         $('body').toggleClass('lock')
     })
     
-    $('.nav__list').click(function(event) {
+    $('.nav__link').click(function(event) {
         $('.header__burger, .nav__container').toggleClass('active')
         $('body').toggleClass('lock')
     })
