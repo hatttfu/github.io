@@ -5,7 +5,7 @@ $(document).ready(function() {
     })
     
     $('.nav__link').click(function(event) {
-        $('.header__burger, .nav__container').toggleClass('active')
+        $('.header__burger, .nav__container').removeClass('active')
         $('body').toggleClass('lock')
     })
 })
