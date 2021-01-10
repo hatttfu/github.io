@@ -131,9 +131,15 @@ a {
     .logo_small {
         display: block;
     }
-    .container {
-        /* padding: 0 1rem; */
+    .header__burger {
+        display: block;
+        position: relative;
+        width: 30px;
+        height: 20px;
+        z-index: 3;
+        cursor: pointer;
     }
+
 }
 
 
